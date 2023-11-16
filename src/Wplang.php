@@ -114,6 +114,11 @@ class Wplang implements PluginInterface, EventSubscriberInterface {
 				case 'wordpress-theme':
 					$t = new Translatable( 'theme', $name, $package->getVersion(), $this->languages, $this->wpLanguageDir );
 					break;
+				case 'metapackage':
+					if ('wordpress' === $name ) {
+						$t = new Translatable( 'core', $name, $package->getVersion(), $this->languages, $this->wpLanguageDir );
+					}
+					break;
 				case 'package':
 					if ( 'johnpbloch' === $provider && 'wordpress' === $name ) {
 						$t = new Translatable( 'core', $name, $package->getVersion(), $this->languages, $this->wpLanguageDir );
