@@ -1,12 +1,12 @@
 {
-    "name": "bjornjohansen/wplang",
+    "name": "nmarolleau53/wplang",
     "description": "Composer plugin to download translation files from wordpress.org",
     "license": "GPL-2.0+",
     "type": "composer-plugin",
     "authors": [
         {
-            "name": "Bjørn Johansen",
-            "email": "post@bjornjohansen.no"
+            "name": "Nicolas Marolleau",
+            "email": "nicolas.marolleau@gmail.com"
         }
     ],
     "require": {
