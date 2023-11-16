@@ -1,4 +1,4 @@
-# bjornjohansen/wplang
+# nmarolleau53/wplang
 
 Composer plugin to download translation files for WordPress core, plugins and themes from wordpress.org.
 
@@ -7,7 +7,7 @@ Composer plugin to download translation files for WordPress core, plugins and th
 First run:
 
 ```
-composer require bjornjohansen/wplang
+composer require nmarolleau53/wplang
 ```
 
 **Note**: If you running Composer v1, make sure to require a version less than `0.2.0`.
